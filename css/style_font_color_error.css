@@ -1,0 +1,195 @@
+body{
+	font-family: sans-serif;
+	font-size: 13px;
+	line-height: 29.5px;
+	margin-top:0px;
+}
+
+/*
+*****************
+* Miscellaneous
+*****************
+*/
+a{
+	font-weight:bold;
+	text-decoration:none;
+	
+}
+
+li{
+	display:inline;
+	float:left;
+	border:1px solid rgb(204, 204, 204);
+	padding: 6px 16px 4px;
+	font-size: 13px;
+}
+
+
+
+/*
+*****************
+* =Header
+*****************
+*/
+.header-background{
+	background:maroon;
+	height:40.4px;
+	border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+header h1{
+	text-indent: -9999px;
+	background: url(../img/bbc-blocks-dark.png) no-repeat;
+}
+.title{
+	width:84px;
+	height:24px;
+	padding-right:8px;
+	padding-bottom:0px;
+	float:left;
+	margin:8px 0 0;
+}
+
+.header{
+	width:976px;
+	height: 39.5px;
+	background:yellow;
+	border-bottom: border:1px solid rgb(204, 204, 204);
+	margin: auto;
+}
+
+#genre-list-items ul{
+	padding:0px;
+	width:800px;
+	height:39.5px;
+	margin:0px;
+}
+
+header li{
+	padding: 6px 16px 0 16px;
+	line-height:29.5px;
+	border-bottom:4px solid black;
+}
+
+
+/*
+*****************
+* =banner1
+*****************
+*/
+
+.banner1{
+	height:56px;
+	background:red;
+
+}
+
+.top-banner-background{
+	width:976px;
+	height: 56px;
+	background:darkgreen;
+	margin:auto;
+}
+
+#banner-logo{
+	text-indent: -9999px;
+	background: url(../img/news.png) no-repeat;
+	float:left;
+	width: 122px;
+	height: 30px;
+	margin:12px 0 12px 0;
+
+}
+
+#brand{
+	margin: 13px 0 8px;
+}
+
+#find-local-wide{
+	float:right;
+	font-size: 19px;
+}
+
+/*
+*****************
+* =banner2
+*****************
+*/
+
+.banner2{
+	height:36px;
+	background:orange;
+}
+
+.bottom-banner-background{
+	width:976px;
+	height: 36px;
+	background:darkblue;
+	margin:auto;
+}
+#topic-nav-bar{
+	padding-left:0px;
+	margin:0px;
+}
+
+#topic-nav-bar li{
+	padding:10px 0 4px 8px;
+	border: none;
+	border-bottom: 4px solid rgb(169, 23, 23);
+	line-height: 18px;
+}
+
+#topic-nav-bar li:hover{
+	border-bottom: 4px solid white;
+}
+
+#topic-nav-bar li span{
+	font-size: 14px;
+	padding:0px 12px 0px 0px;
+	border: none;
+	border-right: 1px solid rgb(204, 204, 204);
+}
+
+#topic-nav-bar li:last-child  span, .nations-nav ul li:last-child span{
+	border:none;
+	padding:0;
+}
+
+/*
+*****************
+* =banner3
+*****************
+*/
+
+.banner3{
+	height:27px;
+	background:darkgreen;
+}
+
+.nations-nav{
+	width:976px;
+	height: 27px;
+	background:#A171F0;
+	margin:auto;
+}
+
+.nations-nav ul{
+	margin:0;
+	padding:0;
+}
+
+.nations-nav li{
+	padding:10px 0 4px 0;
+	border:none;
+	line-height: 16px;
+	border-bottom: 4px solid white;
+}
+
+.nations-nav li:hover{
+	border-bottom:4px solid #bb1919;
+}
+
+.nations-nav ul li span{
+	padding:0 12px;
+	border-right: 1px solid rgb(204, 204, 204);
+}
